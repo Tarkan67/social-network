@@ -4,11 +4,10 @@
   margin: 0;
   background-color: var(--background-color);
   color: var(--color);
-  align-items: flex-start;
+
 }
 body {
   position: relative;
   width: 375px;
   height: 1680px;
-  
 }
