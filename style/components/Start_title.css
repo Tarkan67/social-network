@@ -1,22 +1,25 @@
-:root {
-    --space: 2px;
-}
 
 .Start_title {
+    color: var(--color);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    background-color: black;
-
-    
+    background-color: var(--background-color);
+  
+   
 
     position: absolute;
     width: 327px;
     height:32 px;
-    left: 24px;
-    top: 60px;
+    left: 0px;
+    top: 0px;
+
+
 }
 
+.Start_title > h1 {
 
+    font-size: 18px;
+}
