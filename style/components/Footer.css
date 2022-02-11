@@ -1,0 +1,97 @@
+.Footer {
+  position: absolute;
+  width: 375px;
+  height: 88px;
+  left: 0px;
+  top: 724px;
+}
+
+.frame4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 328px;
+  height: 40px;
+  left: 24px;
+  top: 16px;
+}
+
+.Footer__feed {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+
+  position: static;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  opacity: 0.5;
+}
+
+.Footer__search {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  position: static;
+  width: 40px;
+  height: 40px;
+  left: 72px;
+  top: 0px;
+  opacity: 0.5;
+}
+
+.Footer__create {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+
+  position: static;
+  width: 40px;
+  height: 40px;
+  left: 144px;
+  top: 0px;
+}
+
+.Footer__alert {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-left: 20px;
+
+  position: static;
+  width: 40px;
+  height: 40px;
+  left: 216px;
+  top: 0px;
+  opacity: 0.5;
+}
+
+.Footer__profile {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 5px;
+
+  position: static;
+  width: 40px;
+  height: 40px;
+  left: 288px;
+  top: 0px;
+  opacity: 0.5;
+}
