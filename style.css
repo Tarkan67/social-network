@@ -1,0 +1,7 @@
+@import url(style/variables.css);
+@import url(style/base.css);
+@import url(style/utils.css);
+@import url(style/components/Content.css);
+@import url(style/components/Footer.css);
+@import url(style/components/Start_title.css);
+@import url(style/components/Stories.css);
