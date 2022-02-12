@@ -3,7 +3,6 @@
   flex-direction: row;
   align-items: center;
   padding: 0px;
-
   position: absolute;
   width: 327px;
   height: 140px;
@@ -12,51 +11,84 @@
   overflow-x: scroll;
 }
 
-.Stories_grid {
+.Stories__Story {
   position: static;
   width: 100px;
   height: 140px;
   top: 0px;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.6) 91.43%
-  );
   border-radius: 16px;
-
   flex: none;
   flex-grow: 0;
   margin: 0px 12px;
 }
 
-.Stories_grid1 {
+.Story1 {
   left: 0px;
   order: 0;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.6) 91.43%
+    ),
+    url(/media/Stories/Story\ 1.svg);
 }
 
-.Stories_grid2 {
+.Story2 {
   left: 112px;
   order: 1;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.6) 91.43%
+    ),
+    url(/media/Stories/Story\ 2.svg);
 }
-.Stories_grid3 {
+.Story3 {
   left: 224px;
   order: 2;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.6) 91.43%
+    ),
+    url(/media/Stories/Story\ 3.svg);
 }
 
-.Stories__photo {
+/* Styling the Profile Picture */
+.Picture__Border {
   position: absolute;
   width: 40px;
   height: 40px;
   left: 30px;
   top: 96px;
 }
-.Stories__img {
+
+.Profile__Picture {
   position: absolute;
   width: 32px;
   height: 32px;
   left: 4px;
   top: 4px;
-
-  background: url(/media/Stories/Profile_Photo1.svg);
   border-radius: 100px;
+}
+
+.Story {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  /* background: #181a1c; */
+  border-radius: 100px;
+}
+
+.Story1 .Profile__Picture {
+  background: url(/media/Stories/Profile_Photo1.svg);
+}
+.Story2 .Profile__Picture {
+  background: url(/media/Stories/Profile_Photo2.svg);
+}
+
+.Story3 .Profile__Picture {
+  background: url(/media/Stories/Profile_Photo3.svg);
 }
