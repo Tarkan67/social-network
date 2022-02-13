@@ -1,4 +1,5 @@
 :root {
   --background-color: rgb(24, 26, 28);
   --color: hsl(0, 0%, 100%);
+  --bg-linear-gradient: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
 }
