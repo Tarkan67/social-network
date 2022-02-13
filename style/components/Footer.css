@@ -1,10 +1,9 @@
 .Footer {
   position: absolute;
-  width: 375px;
+  width: 400px;
   height: 88px;
-  left: 0px;
-  top: 724px;
-  position: sticky;
+  bottom: 0px;
+  position: fixed;
 }
 
 .frame4 {
