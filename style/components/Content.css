@@ -1,6 +1,6 @@
 .Content {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr auto 1fr;
 }
 
 .Content__header {
@@ -40,6 +40,8 @@
   margin-left: 24px;
   margin-right: 24px;
   align-self: center;
+}
+.Content__body > img {
 }
 .Content__footer {
   display: grid;
