@@ -4,10 +4,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
+  padding-bottom: 32px;
   background-color: var(--background-color);
 
-  position: absolute;
+  position: static;
   width: 327px;
   height: 32 px;
   margin-left: 24px;

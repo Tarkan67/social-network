@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   padding: 0px;
-  position: absolute;
+  position: static;
   width: 327px;
   height: 140px;
   left: 24px;
